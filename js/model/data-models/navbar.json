@@ -11,17 +11,17 @@
 		"linkText": "Products",
 		"liclass": "dropdown",
 		"children": [{
-				"linkAddress": "product.html#/product1",
-				"linkText": "Product 1"
+				"linkAddress": "product.html#/car-insurance",
+				"linkText": "Car Insurance"
 			},
 			{
-				"linkAddress": "product.html#/product2",
-				"linkText": "Product 2",	
+				"linkAddress": "product.html#/health-insurance",
+				"linkText": "Health Insurance",
 				"separator": "true"
 			},
 			{
-				"linkAddress": "product.html#/product3",
-				"linkText": "Product 3"
+				"linkAddress": "product.html#/travel-insurance",
+				"linkText": "Travel Insurance"
 			}
 		]
 	},
