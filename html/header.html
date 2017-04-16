@@ -1,0 +1,34 @@
+﻿<header id="header" ng-controller="headerController">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand Image</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+		<li ng-repeat="navs in navBar" class="{{navs.hasOwnProperty('liclass') ? navs.liclass : undefined}}">
+			<a ng-if="navs.hasOwnProperty('linkAddress')" href="/html/{{navs.linkAddress}}"> {{navs.linkText}} </a>
+			<a ng-if="navs.hasOwnProperty('children')"  href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				{{navs.linkText}}
+			<span ng-if="navs.hasOwnProperty('children')" class="caret"></span>
+			</a>
+			<ul ng-if="navs.hasOwnProperty('children')" class="dropdown-menu">
+				<li ng-repeat="navChildren in navs.children">
+					<a href="/html/{{navChildren.linkAddress}}" ng-bind="navChildren.linkText"></a>
+				</li>
+			</ul>
+		</li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>

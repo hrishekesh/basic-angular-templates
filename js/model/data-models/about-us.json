@@ -1,0 +1,30 @@
+{
+	"title":"What we do",
+	"imageurl":"about-us.jpg",
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	"teamtitle":"Meet our team",
+	"team": [{
+		"imageurl":"individual.jpg",
+		"imagealt":"John Doe",
+		"name":"John Doe",
+		"email":"john.doe@abc.com",
+		"number":"027 XXX XXXX",
+		"product":"Product 1"
+	},{
+		"imageurl":"individual.jpg",
+		"imagealt":"Jane Doe",
+		"name":"Jane Doe",
+		"email":"jane.doe@abc.com",
+		"number":"027 XXX XXXX",
+		"product":"Product 2"
+	},
+		{
+		"imageurl":"individual.jpg",
+		"imagealt":"John Doe",
+		"name":"John Doe",
+		"email":"john.doe@abc.com",
+		"number":"027 XXX XXXX",
+		"product":"Product 3"
+	}
+	]
+}

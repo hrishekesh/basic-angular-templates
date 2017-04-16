@@ -1,0 +1,25 @@
+{
+	"products": [{
+			"name": "Product 1",
+			"isActive":"true",
+			"imageurl": "large-1.jpg",
+			"imagealt": "Product 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+			"pageurl": "product-1.html"
+		},
+		{
+			"name": "Product 2",
+			"imageurl": "large-2.jpg",
+			"imagealt": "Product 2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+			"pageurl": "product-2.html"
+		},
+		{
+			"name": "Product 3",
+			"imageurl": "large-3.jpg",
+			"imagealt": "Product 3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+			"pageurl": "product-3.html"
+		}
+	]
+}

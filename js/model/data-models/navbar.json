@@ -1,0 +1,36 @@
+[{
+		"linkAddress": "home.html",
+		"linkText": "Home",
+		"liclass": "active"
+	},
+	{
+		"linkAddress": "about-us.html",
+		"linkText": "About us"
+	},
+	{
+		"linkText": "Products",
+		"liclass": "dropdown",
+		"children": [{
+				"linkAddress": "product.html#/product1",
+				"linkText": "Product 1"
+			},
+			{
+				"linkAddress": "product.html#/product2",
+				"linkText": "Product 2",	
+				"separator": "true"
+			},
+			{
+				"linkAddress": "product.html#/product3",
+				"linkText": "Product 3"
+			}
+		]
+	},
+	{
+		"linkAddress": "under-construction.html",
+		"linkText": "Pay Online"
+	},
+	{
+		"linkAddress": "contact-us.html",
+		"linkText": "Contact us"
+	}
+]
